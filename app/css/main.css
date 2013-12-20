@@ -1,0 +1,60 @@
+body{
+    width:100%;
+    height:100%;
+}
+/* line 1, ../../app/styles/main.scss */
+.CodeMirror {
+  line-height: 1.2;
+}
+
+/* line 2, ../../app/styles/main.scss */
+span.clicky {
+  cursor: pointer;
+  background: #d70;
+  color: white;
+  padding: 0 3px;
+  border-radius: 3px;
+}
+
+/* line 9, ../../app/styles/main.scss */
+#view {
+  width: 100%;
+  height: 800px;
+}
+
+.page{
+    display:none;
+    width:100%;
+    height:100%;
+    overflow:hidden;
+}
+.preface-content{
+    width:80%;
+    height:100%;
+    margin:0 auto;
+}
+.preface-content input{
+    width:75%;
+    float: left;
+    height:50px;
+    display: block;
+    margin:0 auto;
+    margin-top:20%;
+    font-size:32px;
+    text-indent: 20px;
+    line-height: 50px;
+}
+.preface-content button{
+    display: block;
+    width:20%;
+    height:50px;
+    float:left;
+    margin-left:3%;
+    line-height: 50px;
+    font-size: 32px;
+    margin-top:20%;
+}
+.on{
+    display:block;
+}
+

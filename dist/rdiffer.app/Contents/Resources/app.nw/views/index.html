@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="lt-ie9">
+<![endif]-->
+<!-- [if gt IE 8] <!-->
+<html lang="en">
+  <!-- <![endif]-->
+  <head>
+    <title>rdiffer-web</title>
+    <meta charset="UTF-8">
+    <meta content="" name="description">
+    <meta content="" name="author">
+    <meta content="3 days" name="revisit-after">
+    <!-- build:css ../css/main.css-->
+    <link href="../css/doc.css" rel="stylesheet">
+    <link href="../css/codemirror.css" rel="stylesheet">
+    <link href="../css/merge.css" rel="stylesheet">
+    <link href="../css/main.css" rel="stylesheet">
+    <!-- endbuild-->
+  </head>
+  <body class="index">
+    <div class="page one on">
+        <div class="preface-content">
+            <input type="text" class="origin-source" placeholder="请输入源文件地址">
+            <button id="origin-submit">获取</button>
+        </div>
+    </div>
+    <div class="page two">
+        <div id="view"></div>
+        <button id="button">源文件地址</button>
+    </div>
+    <!-- build:js ../jsmain.js-->
+    <script src="../js/jquery.js"></script>
+    <script src="../js/lib/codemirror.js"></script>
+    <script src="../js/mode/xml/xml.js"></script>
+    <script src="../js/mode/css/css.js"></script>
+    <script src="../js/mode/javascript/javascript.js"></script>
+    <script src="../js/mode/vbscript/vbscript.js"></script>
+    <script src="../js/mode/htmlmixed/htmlmixed.js"></script>
+    <script src="../js/addon/merge/dep/diff_match_patch.js"></script>
+    <script src="../js/addon/merge/merge.js"></script>
+    <script src="../js/main.js"></script>
+    <!-- endbuild-->
+  </body>
+</html>

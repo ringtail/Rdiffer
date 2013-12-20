@@ -1,0 +1,291 @@
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Source Sans Pro"), local("SourceSansPro-Regular"), url(http://themes.googleusercontent.com/static/fonts/sourcesanspro/v5/ODelI1aHBYDBqgeIAH2zlBM0YzuT7MdOe03otPbuUS0.woff) format("woff");
+}
+
+/* line 8, ../../app/styles/doc.scss */
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+/* line 9, ../../app/styles/doc.scss */
+section, article {
+  display: block;
+  padding: 0;
+}
+
+/* line 11, ../../app/styles/doc.scss */
+body {
+  background: #f8f8f8;
+  font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+}
+
+/* line 17, ../../app/styles/doc.scss */
+p {
+  margin-top: 0;
+}
+
+/* line 19, ../../app/styles/doc.scss */
+h2, h3 {
+  font-weight: normal;
+  margin-bottom: .7em;
+}
+
+/* line 23, ../../app/styles/doc.scss */
+h2 {
+  font-size: 120%;
+}
+
+/* line 24, ../../app/styles/doc.scss */
+h3 {
+  font-size: 110%;
+}
+
+/* line 25, ../../app/styles/doc.scss */
+article > h2:first-child, section:first-child > h2 {
+  margin-top: 0;
+}
+
+/* line 27, ../../app/styles/doc.scss */
+a, a:visited, a:link, .quasilink {
+  color: #A21313;
+  text-decoration: none;
+}
+
+/* line 32, ../../app/styles/doc.scss */
+em {
+  padding-right: 2px;
+}
+
+/* line 36, ../../app/styles/doc.scss */
+.quasilink {
+  cursor: pointer;
+}
+
+/* line 40, ../../app/styles/doc.scss */
+article {
+  max-width: 700px;
+  margin: 0 0 0 160px;
+  border-left: 2px solid #E30808;
+  border-right: 1px solid #ddd;
+  padding: 30px 50px 100px 50px;
+  background: white;
+  z-index: 2;
+  position: relative;
+  min-height: 100%;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+/* line 54, ../../app/styles/doc.scss */
+#nav {
+  position: fixed;
+  top: 30px;
+  left: 0;
+  right: none;
+  width: 160px;
+  padding-right: 350px;
+  text-align: right;
+  z-index: 1;
+}
+
+@media screen and (min-width: 1000px) {
+  /* line 65, ../../app/styles/doc.scss */
+  article {
+    margin: 0 auto;
+  }
+
+  /* line 68, ../../app/styles/doc.scss */
+  #nav {
+    right: 50%;
+    width: auto;
+  }
+}
+/* line 74, ../../app/styles/doc.scss */
+#nav ul {
+  display: block;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 32px;
+}
+
+/* line 80, ../../app/styles/doc.scss */
+#nav li {
+  display: block;
+  margin-bottom: 4px;
+}
+
+/* line 85, ../../app/styles/doc.scss */
+#nav li ul {
+  font-size: 80%;
+  margin-bottom: 0;
+  display: none;
+}
+
+/* line 91, ../../app/styles/doc.scss */
+#nav li.active ul {
+  display: block;
+}
+
+/* line 95, ../../app/styles/doc.scss */
+#nav li li a {
+  padding-right: 20px;
+}
+
+/* line 99, ../../app/styles/doc.scss */
+#nav ul a {
+  color: black;
+  padding: 0 7px 1px 11px;
+}
+
+/* line 104, ../../app/styles/doc.scss */
+#nav ul a.active, #nav ul a:hover {
+  border-bottom: 1px solid #E30808;
+  color: #E30808;
+}
+
+/* line 109, ../../app/styles/doc.scss */
+#logo {
+  border: 0;
+  margin-right: 7px;
+  margin-bottom: 25px;
+}
+
+/* line 115, ../../app/styles/doc.scss */
+section {
+  border-top: 1px solid #E30808;
+  margin: 1.5em 0;
+}
+
+/* line 120, ../../app/styles/doc.scss */
+section.first {
+  border: none;
+  margin-top: 0;
+}
+
+/* line 125, ../../app/styles/doc.scss */
+#demo {
+  position: relative;
+}
+
+/* line 129, ../../app/styles/doc.scss */
+#demolist {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  z-index: 25;
+}
+
+/* line 136, ../../app/styles/doc.scss */
+#bankinfo {
+  text-align: left;
+  display: none;
+  padding: 0 .5em;
+  position: absolute;
+  border: 2px solid #aaa;
+  border-radius: 5px;
+  background: #eee;
+  top: 10px;
+  left: 30px;
+}
+
+/* line 148, ../../app/styles/doc.scss */
+#bankinfo_close {
+  position: absolute;
+  top: 0;
+  right: 6px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* line 155, ../../app/styles/doc.scss */
+.bigbutton {
+  cursor: pointer;
+  text-align: center;
+  padding: 0 1em;
+  display: inline-block;
+  color: white;
+  position: relative;
+  line-height: 1.9;
+  color: white !important;
+  background: #A21313;
+}
+
+/* line 167, ../../app/styles/doc.scss */
+.bigbutton.right {
+  border-bottom-left-radius: 100px;
+  border-top-left-radius: 100px;
+}
+
+/* line 172, ../../app/styles/doc.scss */
+.bigbutton.left {
+  border-bottom-right-radius: 100px;
+  border-top-right-radius: 100px;
+}
+
+/* line 177, ../../app/styles/doc.scss */
+.bigbutton:hover {
+  background: #E30808;
+}
+
+/* line 181, ../../app/styles/doc.scss */
+th {
+  text-decoration: underline;
+  font-weight: normal;
+  text-align: left;
+}
+
+/* line 187, ../../app/styles/doc.scss */
+#features ul {
+  list-style: none;
+  margin: 0 0 1em;
+  padding: 0 0 0 1.2em;
+}
+
+/* line 193, ../../app/styles/doc.scss */
+#features li:before {
+  content: "-";
+  width: 1em;
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+  margin-left: -1em;
+}
+
+/* line 202, ../../app/styles/doc.scss */
+.rel {
+  margin-bottom: 0;
+}
+
+/* line 205, ../../app/styles/doc.scss */
+.rel-note {
+  margin-top: 0;
+  color: #555;
+}
+
+/* line 210, ../../app/styles/doc.scss */
+pre {
+  padding-left: 15px;
+  border-left: 2px solid #ddd;
+}
+
+/* line 215, ../../app/styles/doc.scss */
+code {
+  padding: 0 2px;
+}
+
+/* line 219, ../../app/styles/doc.scss */
+strong {
+  text-decoration: underline;
+  font-weight: normal;
+}
+
+/* line 224, ../../app/styles/doc.scss */
+.field {
+  border: 1px solid #A21313;
+}
